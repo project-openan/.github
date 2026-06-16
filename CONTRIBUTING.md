@@ -1,15 +1,15 @@
 # Contributing to OpenAN
 
-Thank you for your interest in contributing to OpenAN! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to OpenAN, an open source suite for Autonomous Networks (AN) as defined by the TM Forum Autonomous Networks Project. This document provides guidelines for contributors and describes how the project's technical roles and Technical Steering Committee (TSC) seats are determined, as provided for in the OpenAN Technical Charter.
 
 ## How to Contribute
 
 1. **Join the community.** Subscribe to the [OpenAN mailing lists](https://lists.openan.dev) and introduce yourself.
-2. **Find an issue.** Browse [open issues](https://github.com/project-openan) across our repositories, or propose a new feature or improvement on the mailing list.
-3. **Fork and branch.** Fork the repository you want to contribute to and create a feature branch from `main`.
-4. **Make your changes.** Write clear, well-documented code. Include tests where appropriate.
-5. **Sign off your commits.** All contributions must include a DCO sign-off (see below).
-6. **Submit a pull request.** Open a PR against the `main` branch with a clear description of your changes.
+2. **Find or propose work.** Browse [open issues](https://github.com/project-openan) across the repositories in the [project-openan](https://github.com/project-openan) GitHub organization, or propose a new feature or improvement on the mailing list.
+3. **Fork and branch.** Fork the relevant repository and create a feature branch from `main`.
+4. **Make your changes.** Write clear, well-documented code and include tests where appropriate.
+5. **Sign off your commits.** All commits must include a Developer Certificate of Origin (DCO) sign-off (`git commit -s`). See the DCO section below.
+6. **Submit a pull request.** Open a pull request against `main` with a clear description of your changes. A Maintainer will review it, and changes may be requested before merge.
 
 ## Developer Certificate of Origin (DCO)
 
@@ -61,11 +61,11 @@ Signed-off-by: Your Name <your.email@example.com>
 
 You can do this automatically with `git commit -s` or `git commit --signoff`.
 
-The name and email in your sign-off must match your Git identity. The GitHub DCO App is installed on all OpenAN repositories and will check every PR for valid sign-offs.
+The name and email in your sign-off must match your Git identity. The GitHub DCO App is installed on all OpenAN repositories and will check every pull request for valid sign-offs.
 
 ## License
 
-All contributions are accepted under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). By submitting a contribution, you agree that your contribution will be licensed under that license.
+Code contributions are accepted under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). Documentation contributions are accepted under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). By submitting a contribution, you agree that it will be licensed accordingly.
 
 ### SPDX License Headers
 
@@ -80,7 +80,7 @@ Adjust the comment syntax for your file type (e.g., `//` for Go/Java/C, `/* */` 
 
 ## Code Review
 
-All submissions require review before merging. Maintainers will review your PR for technical correctness, style, and alignment with project goals. Be responsive to feedback and willing to make adjustments.
+All submissions require review before merging. Maintainers will review your pull request for technical correctness, style, and alignment with project goals. Be responsive to feedback and willing to make adjustments.
 
 ## Reporting Issues
 
@@ -92,10 +92,57 @@ When reporting issues, please include:
 - Your environment (OS, software versions, etc.)
 - Any relevant logs or screenshots
 
+## Roles
+
+Per Section 2.c of the Technical Charter:
+
+- **Contributors** are anyone in the technical community who contributes code, documentation, or other technical artifacts to the Project.
+- **Maintainers** are Contributors who have earned the ability to commit to a project repository. A Contributor may become a Maintainer by majority approval of the TSC. A Maintainer may be removed by majority approval of the TSC.
+
+### Becoming a Maintainer
+
+Contributors with a sustained record of high quality contributions (code, documentation, reviews, or other technical artifacts) may be nominated by any existing Maintainer or may self-nominate to the TSC. The TSC approves new Maintainers by majority vote.
+
+## TSC Composition
+
+### Startup Period
+
+Per Section 2.b of the Technical Charter, for an initial period of twelve (12) months following the inception of the Project, the Maintainers of the Project, who serve as the voting members of the TSC, are the individuals listed below. Each organization listed appointed one (1) representative as of the Project inception date.
+
+| Organization | Representative | Role | GitHub ID |
+|---|---|---|---|
+| Huawei Technologies Co., Ltd | Yijun Yu | TSC Chair | amoyuzi |
+| China Mobile Communication Company, Ltd | Zhiyi Luo | TSC Vice Chair | TBD |
+| Advanced Info Service PLC | Boonchoung Tansuthepverawongse | Voting Rep | TBD |
+| AsiaInfo Technologies (China) Co., Ltd | Zhiqi Shi | Voting Rep | TBD |
+| Infosys Limited | Ullas Krishnan | Voting Rep | TBD |
+| Orange SA | Bastien Bourgeois | Voting Rep | TBD |
+| Telecom Argentina S.A. | Eduardo M Panciera Molanes | Voting Rep | TBD |
+| ZTE Corporation | Xiaobin Shi | Voting Rep | TBD |
+
+An organization may replace its representative by written notice to the TSC Chair.
+
+### Steady State
+
+After the Startup Period, TSC seats are filled as follows:
+
+- The TSC consists of up to eleven (11) voting members.
+- No organization (including affiliates) may hold more than one (1) voting seat.
+- Voting members are elected annually from among the Project's active Maintainers and Contributors, following the election process documented in [GOVERNANCE.md](./GOVERNANCE.md).
+- The TSC may adjust this process by majority vote, documented by an update to this file.
+
+## Decision Making
+
+Day to day technical decisions follow the consensus and voting processes documented in [GOVERNANCE.md](./GOVERNANCE.md), subordinate to the TSC Voting provisions of the Technical Charter.
+
 ## Code of Conduct
 
-All participants must follow the [LF Projects Code of Conduct](https://lfprojects.org/policies/code-of-conduct/). Be respectful, inclusive, and constructive in all interactions.
+All participants must follow the [LF Projects Code of Conduct](https://lfprojects.org/policies/code-of-conduct/), unless and until a Project-specific code of conduct is adopted per the Technical Charter. Be respectful, inclusive, and constructive in all interactions.
 
-## Questions?
+## Communication
 
-If you have questions about contributing, reach out on the [OpenAN mailing lists](https://lists.openan.dev) or open a [GitHub Discussion](https://github.com/orgs/project-openan/discussions). For project operations or governance questions, contact the LFN staff at [support@lfnetworking.org](mailto:support@lfnetworking.org). For infrastructure issues (GitHub access, SSO/LFID accounts), visit [support.linuxfoundation.org](https://support.linuxfoundation.org).
+- Mailing lists: <https://lists.openan.dev>
+- Wiki: [OpenAN Confluence space](https://lf-networking.atlassian.net/wiki/spaces/OpenAN/overview)
+- Issues and discussion: GitHub issues in the relevant repository, or [GitHub Discussions](https://github.com/orgs/project-openan/discussions)
+- Project operations or governance questions: contact LFN staff at <support@lfnetworking.org>
+- Infrastructure issues (GitHub access, SSO/LFID accounts): visit [support.linuxfoundation.org](https://support.linuxfoundation.org)
