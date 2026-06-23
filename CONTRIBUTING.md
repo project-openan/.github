@@ -9,7 +9,7 @@ Thank you for your interest in contributing to OpenAN, an open source suite for 
 3. **Fork and branch.** Fork the relevant repository and create a feature branch from `main`.
 4. **Make your changes.** Write clear, well-documented code and include tests where appropriate.
 5. **Sign off your commits.** All commits must include a Developer Certificate of Origin (DCO) sign-off (`git commit -s`). See the DCO section below.
-6. **Submit a pull request.** Open a pull request against `main` with a clear description of your changes. A Maintainer will review it, and changes may be requested before merge.
+6. **Submit a pull request.** Open a pull request against `main` with a clear description of your changes. On your first PR, the EasyCLA bot prompts you to sign the CLA. A Maintainer will review it, and changes may be requested before merge.
 
 ## Developer Certificate of Origin (DCO)
 
@@ -63,6 +63,10 @@ You can do this automatically with `git commit -s` or `git commit --signoff`.
 
 The name and email in your sign-off must match your Git identity. The GitHub DCO App is installed on all OpenAN repositories and will check every pull request for valid sign-offs.
 
+## Contributor License Agreement (CLA)
+
+In addition to the DCO sign-off, OpenAN uses [EasyCLA](https://docs.linuxfoundation.org/lfx/easycla) to manage Contributor License Agreements. On your first pull request, the EasyCLA bot prompts you to sign the appropriate CLA. If you are contributing on behalf of an employer, your organization's CLA manager approves you under a corporate CLA. Both the DCO check and the EasyCLA check must pass before a pull request can be merged.
+
 ## License
 
 Code contributions are accepted under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). Documentation contributions are accepted under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). By submitting a contribution, you agree that it will be licensed accordingly.
@@ -112,9 +116,9 @@ Per Section 2.b of the Technical Charter, for an initial period of twelve (12) m
 | Organization | Representative | Role | GitHub ID |
 |---|---|---|---|
 | Huawei Technologies Co., Ltd | Yijun Yu | TSC Chair | amoyuzi |
-| China Mobile Communication Company, Ltd | Zhiyi Luo | TSC Vice Chair | TBD |
+| China Mobile Communication Company, Ltd | Kailai Zhang | TSC Vice Chair | TBD |
 | Advanced Info Service PLC | Boonchoung Tansuthepverawongse | Voting Rep | TBD |
-| AsiaInfo Technologies (China) Co., Ltd | Zhiqi Shi | Voting Rep | TBD |
+| AsiaInfo Technologies (China) Co., Ltd | Zhiqi Li | Voting Rep | TBD |
 | Infosys Limited | Ullas Krishnan | Voting Rep | TBD |
 | Orange SA | Bastien Bourgeois | Voting Rep | TBD |
 | Telecom Argentina S.A. | Eduardo M Panciera Molanes | Voting Rep | TBD |
@@ -146,3 +150,5 @@ All participants must follow the [LF Projects Code of Conduct](https://lfproject
 - Issues and discussion: GitHub issues in the relevant repository, or [GitHub Discussions](https://github.com/orgs/project-openan/discussions)
 - Project operations or governance questions: contact LFN staff at <support@lfnetworking.org>
 - Infrastructure issues (GitHub access, SSO/LFID accounts): visit [support.linuxfoundation.org](https://support.linuxfoundation.org)
+
+Copyright © OpenAN a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see https://lfprojects.org.
