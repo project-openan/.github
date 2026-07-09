@@ -116,15 +116,15 @@ Per Section 2.b of the Technical Charter, for an initial period of twelve (12) m
 | Organization | Representative | Role | GitHub ID |
 |---|---|---|---|
 | Huawei Technologies Co., Ltd | Yijun Yu | TSC Chair | amoyuzi |
-| China Mobile Communication Company, Ltd | Kailai Zhang | TSC Co-Chair | TBD |
+| China Mobile Communication Company, Ltd | Kailai Zhang | TSC Vice Chair | TBD |
 | Advanced Info Service PLC | Boonchoung Tansuthepverawongse | Voting Rep | TBD |
 | AsiaInfo Technologies (China) Co., Ltd | Zhiqi Li | Voting Rep | TBD |
 | Infosys Limited | Ullas Krishnan | Voting Rep | TBD |
 | Orange SA | Mohammed El Barhichi | Voting Rep | TBD |
-| Telecom Argentina S.A. | Eduardo M Panciera Molanes | Voting Rep | TBD |
+| Telecom Argentina S.A. | Eduardo M Panciera Molanes | Voting Rep | epancie |
 | ZTE Corporation | Xiaobin Shi | Voting Rep | TBD |
 
-An organization may replace its representative by written notice to the TSC Chair.
+An organization may replace its representative by written notice to the TSC Chair. The current TSC roster is maintained in [MAINTAINERS.md](https://github.com/project-openan/governance/blob/main/MAINTAINERS.md) in the governance repository.
 
 ### Steady State
 
@@ -132,12 +132,12 @@ After the Startup Period, TSC seats are filled as follows:
 
 - The TSC consists of up to eleven (11) voting members.
 - No organization (including affiliates) may hold more than one (1) voting seat.
-- Voting members are elected annually from among the Project's active Maintainers and Contributors, following the election process documented in [GOVERNANCE.md](./GOVERNANCE.md).
+- Voting members are elected annually from among the Project's active Maintainers and Contributors, following the election process documented in [GOVERNANCE.md](https://github.com/project-openan/governance/blob/main/GOVERNANCE.md).
 - The TSC may adjust this process by majority vote, documented by an update to this file.
 
 ## Decision Making
 
-Day to day technical decisions follow the consensus and voting processes documented in [GOVERNANCE.md](./GOVERNANCE.md), subordinate to the TSC Voting provisions of the Technical Charter.
+Day to day technical decisions follow the consensus and voting processes documented in [GOVERNANCE.md](https://github.com/project-openan/governance/blob/main/GOVERNANCE.md), subordinate to the TSC Voting provisions of the Technical Charter.
 
 ## Code of Conduct
 
@@ -147,6 +147,7 @@ All participants must follow the [LF Projects Code of Conduct](https://lfproject
 
 - Mailing lists: <https://lists.openan.dev>
 - Wiki: [OpenAN Confluence space](https://lf-networking.atlassian.net/wiki/spaces/OpenAN/overview)
+- Meeting calendar: [Community Meeting Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/openan?view=week). To request a new meeting, email <support@lfnetworking.org> with the meeting name, its committee, working group, or SIG (if any), the cadence, and the time including the time zone (UTC, PT, etc.)
 - Issues and discussion: GitHub issues in the relevant repository, or [GitHub Discussions](https://github.com/orgs/project-openan/discussions)
 - Project operations or governance questions: contact LFN staff at <support@lfnetworking.org>
 - Infrastructure issues (GitHub access, SSO/LFID accounts): visit [support.linuxfoundation.org](https://support.linuxfoundation.org)
