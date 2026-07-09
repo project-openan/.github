@@ -44,11 +44,11 @@ The TSC aims to operate by consensus. When consensus cannot be reached, decision
 - Meeting schedules, agendas, and minutes are published on the [OpenAN wiki](https://lf-networking.atlassian.net/wiki).
 - Meetings are announced on the [OpenAN mailing lists](https://lists.openan.dev).
 
-## Project Advisory Committee (PAC)
+## Adopter Advisory Committee (AAC)
 
-The PAC provides advisory input to the TSC on topics including market requirements, use cases, and ecosystem engagement. The PAC does not have binding decision-making authority over the TSC's technical direction.
+The AAC provides advisory input to the TSC on topics including market requirements, use cases, and ecosystem engagement. The AAC does not have binding decision-making authority over the TSC's technical direction.
 
-Details of the PAC composition and charter are defined in the Technical Charter.
+Details of the AAC composition and charter are defined in the Technical Charter.
 
 ## Roles
 
@@ -56,15 +56,25 @@ Details of the PAC composition and charter are defined in the Technical Charter.
 
 Anyone who contributes to the project (code, documentation, testing, issue reports, reviews, etc.). Contributors are expected to follow the [Contributing Guidelines](https://github.com/project-openan/.github/blob/main/CONTRIBUTING.md) and the [Code of Conduct](https://lfprojects.org/policies/code-of-conduct/).
 
-### Committer / Maintainer
+### Triager
 
-Contributors who have been granted write access to one or more repositories. Maintainers are responsible for reviewing and merging contributions, maintaining code quality, and mentoring new contributors. Maintainers are listed in [MAINTAINERS.md](MAINTAINERS.md).
+Contributors who have been granted Triage access to one or more repositories. Triagers help manage issues and pull requests for their component and represent the first rung of the contributor ladder. Triagers are members of their component's triagers team.
+
+### Maintainer
+
+Contributors who have been granted write access to one or more repositories. Maintainers are responsible for reviewing and merging contributions, maintaining code quality, and mentoring new contributors. Each repository lists its maintainers in its own MAINTAINERS.md file; the project-wide index is in [MAINTAINERS.md](MAINTAINERS.md).
 
 Maintainer status is granted by the TSC or by existing maintainers of a given repository, based on sustained, quality contributions.
 
 ### TSC Member
 
 Individuals who serve on the Technical Steering Committee as defined by the Technical Charter and TSC composition rules.
+
+## Repository Governance
+
+Each component repository carries a MAINTAINERS.md (the public record of its maintainers) and a CODEOWNERS file (which routes pull request reviews to the component's maintainers team). Changes to these files are made by pull request, preserving a public audit trail of maintainership.
+
+For the organizational repositories (`.github` and `governance`), the TSC owns and merges changes, and LF staff serve as the designated reviewers to provide a neutral review of organizational and governance changes before merge.
 
 ## Sub-Projects and Working Groups
 
@@ -80,7 +90,7 @@ Changes to this governance document require approval by a two-thirds majority of
 
 ## Reference
 
-- [Technical Charter](TECHNICAL-CHARTER.md)
+- [Technical Charter (PDF)](https://github.com/project-openan/governance/blob/main/OpenAN%20Technical%20Charter%2006-22-2026.pdf)
 - [Maintainers](MAINTAINERS.md)
 - [Contributing Guidelines](https://github.com/project-openan/.github/blob/main/CONTRIBUTING.md)
 - [LF Projects Code of Conduct](https://lfprojects.org/policies/code-of-conduct/)
