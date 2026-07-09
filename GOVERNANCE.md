@@ -62,7 +62,7 @@ Contributors who have been granted Triage access to one or more repositories. Tr
 
 ### Maintainer
 
-Contributors who have been granted write access to one or more repositories. Maintainers are responsible for reviewing and merging contributions, maintaining code quality, and mentoring new contributors. Each repository lists its maintainers in its own MAINTAINERS.md file; the project-wide index is in [MAINTAINERS.md](MAINTAINERS.md).
+Contributors who have been granted write access to one or more repositories. Maintainers are responsible for reviewing and merging contributions, maintaining code quality, and mentoring new contributors. Each repository lists its maintainers in its own MAINTAINERS.md file; the project-wide index and current TSC roster are in [MAINTAINERS.md](MAINTAINERS.md) alongside this document.
 
 Maintainer status is granted by the TSC or by existing maintainers of a given repository, based on sustained, quality contributions.
 
