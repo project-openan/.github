@@ -48,7 +48,7 @@ A2A-T extends the A2A protocol with four telecom-grade primitives:
 - **Zulip**: Real-time discussion on the [LF Zulip](https://linuxfoundation.zulipchat.com) in `#lfn-openan-discussion`, `#lfn-openan-support`, and `#lfn-openan-tsc`
 - **Mailing Lists**: [lists.openan.dev](https://lists.openan.dev)
 - **Wiki**: [OpenAN Confluence space](https://lf-networking.atlassian.net/wiki/spaces/OpenAN/overview)
-- **Meetings**: Community calls are open to everyone; schedules are published on the wiki and mailing lists
+- **Meetings**: All public meetings are on the [Community Meeting Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/openan?view=week). To request a new meeting, email [support@lfnetworking.org](mailto:support@lfnetworking.org) with the meeting name, its committee, working group, or SIG (if any), the cadence, and the time, including the time zone (UTC, PT, etc.)
 
 ## Governance
 
