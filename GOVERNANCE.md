@@ -41,8 +41,10 @@ The TSC aims to operate by consensus. When consensus cannot be reached, decision
 ### Meetings
 
 - The TSC holds regular meetings open to all community participants.
+- All public meetings appear on the [Community Meeting Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/openan?view=week).
 - Meeting schedules, agendas, and minutes are published on the [OpenAN wiki](https://lf-networking.atlassian.net/wiki).
 - Meetings are announced on the [OpenAN mailing lists](https://lists.openan.dev).
+- To request a new community meeting, email [support@lfnetworking.org](mailto:support@lfnetworking.org) with the meeting name, its committee, working group, or SIG (if any), the cadence, and the time including the time zone (UTC, PT, etc.).
 
 ## Adopter Advisory Committee (AAC)
 
