@@ -29,7 +29,7 @@ OpenAN brings operators, vendors, and innovators of the telecom industry togethe
 A2A-T extends the A2A protocol with four telecom-grade primitives:
 
 - **Task-T Schema** : Structured task definitions that eliminate ambiguity in inter-agent requests
-- **Sub-Pub-T Eventing** : Network event subscription and publication optimized for telecom O&M data patterns
+- **Notification-T Eventing** : Network event subscription and publication optimized for telecom O&M data patterns
 - **Negotiation-T Control** : Structured negotiation between agents to resolve ambiguity and confirm feasibility
 - **Authorization-T Security** : Dynamic security with agent card limitations and explicit authorization before network-changing operations
 
