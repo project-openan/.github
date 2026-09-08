@@ -118,7 +118,7 @@ Per Section 2.b of the Technical Charter, for an initial period of twelve (12) m
 | Huawei Technologies Co., Ltd | Yijun Yu | TSC Chair | amoyuzi |
 | China Mobile Communication Company, Ltd | Kailai Zhang | TSC Vice Chair | TBD |
 | Advanced Info Service PLC | Boonchoung Tansuthepverawongse | Voting Rep | TBD |
-| AsiaInfo Technologies (China) Co., Ltd | Zhiqi Li | Voting Rep | TBD |
+| AsiaInfo Technologies (China) Co., Ltd | Dajiang Du | Voting Rep | TBD |
 | Infosys Limited | Ullas Krishnan | Voting Rep | TBD |
 | Orange SA | Mohammed El Barhichi | Voting Rep | TBD |
 | Telecom Argentina S.A. | Eduardo M Panciera Molanes | Voting Rep | epancie |
